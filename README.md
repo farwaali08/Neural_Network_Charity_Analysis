@@ -41,16 +41,16 @@ The analysis can be divided into the following parts:
 
 * `IS_SUCCESSFUL` is the target variable in this analysis, as it represents whether the donation was used effectively
 * The following are a list of variables that are features (along with description):
- * `APPLICATION_TYPE`—Alphabet Soup application type
- * `AFFILIATION`—Affiliated sector of industry
- * `CLASSIFICATION`—Government organization classification
- * `USE_CASE—Use`-case for funding
- * `ORGANIZATION`—Organization type
- * `STATUS`—Active status
- * `INCOME_AMT`—Income classification
- * `SPECIAL_CONSIDERATIONS`—Special consideration for application
- * `ASK_AMT—Funding amount`-requested
-* `EIN` and `NAME `, which are indentification columns are neither targets nor features, and were removed from the input data
+  * `APPLICATION_TYPE`—Alphabet Soup application type
+  * `AFFILIATION`—Affiliated sector of industry
+  * `CLASSIFICATION`—Government organization classification
+  * `USE_CASE—Use`-case for funding
+  * `ORGANIZATION`—Organization type
+  * `STATUS`—Active status
+  * `INCOME_AMT`—Income classification
+  * `SPECIAL_CONSIDERATIONS`—Special consideration for application
+  * `ASK_AMT—Funding amount`-requested
+* `EIN` and `NAME`, which are indentification columns are neither targets nor features, and were removed from the input data
 
 ### COMPILING, TRAINING, & EVALUATING THE MODEL
 
