@@ -17,8 +17,11 @@
 ### CODE
 
 [AlphabetSoupCharity.ipynb](https://github.com/farwaali08/Neural_Network_Charity_Analysis/blob/69088162da47d789555afcca2e79e8ee77a853fe/Notebooks/AlphabetSoupCharity.ipynb)
+
 [Optimization 1](https://github.com/farwaali08/Neural_Network_Charity_Analysis/blob/69088162da47d789555afcca2e79e8ee77a853fe/Notebooks/AlphabetSoupCharity_Optimzation1.ipynb)
+
 [Optimization 2](https://github.com/farwaali08/Neural_Network_Charity_Analysis/blob/69088162da47d789555afcca2e79e8ee77a853fe/Notebooks/AlphabetSoupCharity_Optimzation2.ipynb)
+
 [Optimization 3](https://github.com/farwaali08/Neural_Network_Charity_Analysis/blob/69088162da47d789555afcca2e79e8ee77a853fe/Notebooks/AlphabetSoupCharity_Optimzation3.ipynb)
 
 ## RESULTS
