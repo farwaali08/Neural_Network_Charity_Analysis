@@ -1,6 +1,17 @@
-# Neural_Network_Charity_Analysis
+# Neural_Network_Charity_Analysis 🧠
 
 ## OVERVIEW
+
+This project looks at deep-learning neural networks, with an ultimate purpose of creating a binary classification model that is capable of predicting the success of donations. 
+
+The workhorse of this analysis is Python's TensorFlow library. To help determine different methods of optimization, various models were tested in the [TensorFlow playground](https://playground.tensorflow.org) and the modifications were selected accordingly.
+
+The analysis can be divided into the following parts:
+
+* Data preprocessing 
+* Compiling, training, and evaluating the model
+* Optimization
+
 
 ## TOOLS & RESOURCES
 
@@ -25,5 +36,6 @@
 [Optimization 3](https://github.com/farwaali08/Neural_Network_Charity_Analysis/blob/69088162da47d789555afcca2e79e8ee77a853fe/Notebooks/AlphabetSoupCharity_Optimzation3.ipynb)
 
 ## RESULTS
+
 
 ## SUMMARY
