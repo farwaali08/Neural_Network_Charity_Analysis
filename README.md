@@ -59,14 +59,16 @@ The analysis can be divided into the following parts:
   *  The following activation functions were used: 
      * **ReLU** for the hidden layers, to allow for a [faster](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks) training process 
      * **Sigmoid** for the output layer, as the model is intended to be a binary classifier
-* Optimizer: `adam` 
-* Loss function: `binary_crossentropy`
+  * Optimizer: `adam` 
+  * Loss function: `binary_crossentropy`
 
-* The model accuracy did **not** meet the target of `75%` in the initial run. In an attempt to improve the performance of the model, the following changes were made:
+* The model's accuracy did **not** meet the target of `75%` in the initial run. In an attempt to improve the performance of the model, the following changes were made:
   * Increased the number of neurons in one of the hidden layers
   * Incorporated an additional hidden layer
   * Use a different activation function: `tanh` 
 
-These changes did not improve the model's performance, and in fact, they seemed to lower its performance slightly. The highest accuracy achieved was about `72.5%`.
+These changes did not improve the model's performance, and in fact, they seemed to lower its performance slightly. The highest accuracy achieved was about `72.5%`, which is not acceptable for this analysis.
 
 ## SUMMARY
+
+The model achieved a maximum accuracy of only `72.5%`. This does not reach the target accuracy, which at 75% is not a great ask. This suggests that a different model would be better suited for this project. As the objective was to create a binary classifier, the Random Forest Classifier model would be a better fit, as it generally has higher accuracy/greater predictive capabilities.
