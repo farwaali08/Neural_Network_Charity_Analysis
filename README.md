@@ -55,12 +55,9 @@ The analysis can be divided into the following parts:
 ### COMPILING, TRAINING, & EVALUATING THE MODEL
 
 * The model is composed of 2 hidden layers with 80 neurons in the first layer and 30 in the second
-  * The input data has 43 features and 25,724 samples
   *  The following activation functions were used: 
      * **ReLU** for the hidden layers, to allow for a [faster](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks) training process 
      * **Sigmoid** for the output layer, as the model is intended to be a binary classifier
-  * Optimizer: `adam` 
-  * Loss function: `binary_crossentropy`
 
 * The model's accuracy did **not** meet the target of `75%` in the initial run. In an attempt to improve the performance of the model, the following changes were made:
   * Increased the number of neurons in one of the hidden layers
